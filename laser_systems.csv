@@ -1,40 +1,40 @@
-name,location,peak_power(W),wavelength(µm),repetition_rate(Hz),references,notes
-MAX-BORN-INSTITUT für Nichtlineare Optik und Kurzzeitspektroskopie,"Berlin, Germany",1e14,0.8,100,"Liquid-cooled-TiSapphire-thin-disk-amplifiers-for-high-average-power-100-TW-systems.pdf; https://mbi-berlin.de/research/projects/41-implemetation-of-lasers-and-measuring-techniques/topics/t4-tw-class-few-cycle-opcpa-system/thin-disk-laser","Repetition rate is an estimate."
-"10/100 Hz Laser, 10 Hz Line","Varennes, Canada",1e13,0.8,100,"Experimental prospects at the Canadian advanced laser light source facility | Laser and Particle Beams | Cambridge Core","Repetition rate is for high-average-rate operating mode."
-PALS (Prague Asterix Laser System),"Prague, Czechia",5e13,1.315,0.017,"https://doi.org/10.1117/12.899051; PALS Facility (Institute of Physics of the Czech Academy of Sciences)","Repetition rate is an estimate."
-CLAPA (Compact Laser Particle Accelerator),"Beijing, China",2e14,0.8,5,"Targets for high repetition rate laser facilities: needs, challenges and perspectives | High Power Laser Science and Engineering | Cambridge Core; CLAPA facility publications"
-BELLA,"Berkeley, USA",1.3e15,0.8,1,"Petawatt Laser Guiding and Electron Beam Acceleration to 8 GeV in a Laser-Heated Capillary Discharge Waveguide | Phys. Rev. Lett.; LaserNetUS BELLA facility page"
-PHELIX,"Darmstadt, Germany",5e14,1.054,0.000185,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Neumayer et al., Applied Physics B (PHELIX overview)"
-High-Power Laser System (HPLS),"Magurele, Romania",2.04e16,0.82,0.02,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; ELI-NP HPLS facility documentation","Repetition rate is an estimate."
-J-KAREN-P,"Kizugawa, Japan",1e15,0.82,0.1,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; J-KAREN-P facility papers (QST); Journal of High Power Laser Science and Engineering"
-ARC (NIF),"Livermore, USA",1.2e14,1.053,0.000028,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Lawrence Livermore National Laboratory ARC documentation","Repetition rate is an estimate."
-ARC (NIF),"Livermore, USA",5e14,1.053,0.000028,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Lawrence Livermore National Laboratory ARC documentation","Repetition rate is an estimate."
-TEWALAS,"Bucharest, Romania",1.5e13,0.81,10,https://cetal.inflpr.ro/newsite/tewalas_system
-Trident,"Los Alamos, USA",2e14,1.054,8.33e-4,https://laro.lanl.gov/esploro/outputs/9916370215603761
-*ISKRA-5,"Sarov, Russia",1e14,1.053,1.4e-4,High power laser system ISKRA V | Laser and Particle Beams | Cambridge Core,"Repetition rate is an estimate."
-Laboratory for Intense Lasers (L2I),"Lisbon, Portugal",1.5e13,1.053,0.01,https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/ultrashort-pulse-capability-at-the-l2i-high-intensity-laser-facility/AC8B841C57282134E8AA71784DD95505,"Repetition rate is an estimate."
-Pulsar,"Warsaw, Poland",1e13,0.81,10,https://www.semanticscholar.org/reader/4708d73610d6d675d779aa5d09a7e99ede7487bd
-ZEUS,"Ann Arbor, USA",3e15,0.8,0.03,https://pubs.aip.org/aip/pop/article/32/10/103107/3369107,"Repetition rate is an estimate."
-JETI200,"Jena, Germany",2e14,0.8,5,https://info.fusion.ciemat.es/OCS/EPS2017ABS/pdf/P1.213.pdf
-POLARIS,"Jena, Germany",2e14,1.03,0.02,https://www.researching.cn/articles/OJdb045c3bd0e7a6c3?alichlgref=https%3A%2F%2Fwww.google.com%2F
-Center for Relativistic Laser Science (CoReLS),"Gwangju, South Korea",4.2e15,0.81,0.03,https://opg.optica.org/ol/fulltext.cfm?uri=ol-42-11-2058,"Repetition rate is an estimate."
-ANGUS,"Hamburg, Germany",2e14,0.8,1,https://opg.optica.org/abstract.cfm?uri=CLEO_SI-2017-JTu3L.4,"Repetition rate is an estimate."
-Laboratorio di Laser Intensi (ILIL),"Pisa, Italy",2.4e14,0.8,0.05,https://ilil.ino.cnr.it/download/single-shot-spectrometer-with-pointing-angle-correction-for-laser-driven-electron-beams-featuring-pointing-instability-and-transverse-inhomogeneity/,"Repetition rate is an estimate."
-Titan,"Livermore, USA",1e15,1.05,5.6e-4,https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/DE2006891736.xhtml?utm_source=chatgpt.com
-Salle Violette,"Palaiseau, France",2e14,0.79,0.002,https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.045001,"Repetition rate is an estimate."
-HF-2PW Arm,"Szeged, Hungary",2e15,0.8,2.5,https://ieeexplore.ieee.org/abstract/document/10231672,"Repetition rate is for typical operating mode, compared to 10 Hz for optimized mode."
-FLAME,"Frascati, Italy",2e14,0.8,10,https://www.mdpi.com/2076-3417/14/19/8619
-Colorado State University Advanced Beam Laboratory,"Fort Collins, USA",8.5e14,0.4,1,https://lasers.colostate.edu/aleph/,"Repetition rate is for typical high-energy operation mode."
-Laboratory for Intense Lasers (L2I),"Lisbon, Portugal",1.625e9,3,10,https://www.mdpi.com/2304-6732/11/12/1157,"Repetition rate is an estimate for facility-scale amplified beam mode."
-Xtreme Light III (XL-III),"Beijing, China",1.16e15,0.8,10,https://doi.org/10.1364/OL.36.003194
-Shanghai Institute of Optics and Fine Mechanics 5 PW,"Shanghai, China",1.76e15,0.808,0.02,https://doi.org/10.1017/hpl.2018.23,"Repetition rate is an estimate."
-Astra Gemini,"Didcot, United Kingdom",5e14,0.8,0.05,https://www.osti.gov/etdeweb/biblio/21507140
-Vulcan,"Didcot, United Kingdom",1.03e15,1.053,2.8e-4,https://www.osti.gov/etdeweb/biblio/20858586
-PEARL,"Nizhny Novgorod, Russia",5.6e14,0.91,3e-4,https://www.scilit.com/publications/055acccbbf98682b52b4b4e80692c039,"Repetition rate is an estimate."
-PETAL,"Le Barp, France",1.15e15,1.053,9e-5,https://cea.hal.science/cea-01622289,"Repetition rate is an estimate."
-Chinese Academy of Engineering Physics PW Laser,"Mianyang, China",4.9e15,0.8,0.02,https://doi.org/10.1364/OL.42.002014,"Repetition rate is an estimate."
-FACET Laser,"Portola Valley, USA",1e13,0.8,10,https://www.slac.stanford.edu/pubs/slacpubs/15750/slac-pub-15904.pdf
-MEC Instrument (LCLS),"Portola Valley, USA",2.5e13,0.8,5,https://inspirehep.net/files/58d1c60edec555a6a0b10ef6f245de35
-Hercules,"Ann Arbor, USA",3e14,0.8,0.1,https://doi.org/10.1364/OE.16.002109
-Texas Petawatt Laser,"Austin, USA",1.1e15,1.057,2.8e-4,https://doi.org/10.1364/AO.49.001676
-BESTIA,"Upton, USA",1e14,10,10,https://doi.org/10.1063/1.4975920,"Repetition rate is an estimate."
+name,location,peak_power(W),wavelength(µm),pulse_energy(J),pulse_duration(fs),repetition_rate(Hz),year,references,notes 
+MAX-BORN-INSTITUT für Nichtlineare Optik und Kurzzeitspektroskopie,"Berlin, Germany",1e14,0.8,100,100,2017,"Liquid-cooled-TiSapphire-thin-disk-amplifiers-for-high-average-power-100-TW-systems.pdf; https://mbi-berlin.de/research/projects/41-implemetation-of-lasers-and-measuring-techniques/topics/t4-tw-class-few-cycle-opcpa-system/thin-disk-laser","Repetition rate is an estimate."
+"10/100 Hz Laser, 10 Hz Line","Varennes, Canada",1e13,0.8,100,100,2006,"Experimental prospects at the Canadian advanced laser light source facility | Laser and Particle Beams | Cambridge Core","Repetition rate is for high-average-rate operating mode."
+PALS (Prague Asterix Laser System),"Prague, Czechia",5e13,1.315,0.017,100,2011,"https://doi.org/10.1117/12.899051; PALS Facility (Institute of Physics of the Czech Academy of Sciences)","Repetition rate is an estimate."
+CLAPA (Compact Laser Particle Accelerator),"Beijing, China",2e14,0.8,5,100,2019,"Targets for high repetition rate laser facilities: needs, challenges and perspectives | High Power Laser Science and Engineering | Cambridge Core; CLAPA facility publications"
+BELLA,"Berkeley, USA",1.3e15,0.8,1,100,2019,"Petawatt Laser Guiding and Electron Beam Acceleration to 8 GeV in a Laser-Heated Capillary Discharge Waveguide | Phys. Rev. Lett.; LaserNetUS BELLA facility page"
+PHELIX,"Darmstadt, Germany",5e14,1.054,0.000185,100,2024,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Neumayer et al., Applied Physics B (PHELIX overview)","Repetition rate is an estimate."
+High-Power Laser System (HPLS),"Magurele, Romania",2.04e16,0.82,0.02,100,2022,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; ELI-NP HPLS facility documentation","Repetition rate is an estimate."
+J-KAREN-P,"Kizugawa, Japan",1e15,0.82,0.1,100,2018,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; J-KAREN-P facility papers (QST); Journal of High Power Laser Science and Engineering"
+ARC (NIF),"Livermore, USA",1.2e14,1.053,0.000028,15000,2015,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Lawrence Livermore National Laboratory ARC documentation","1–50 ps converted to 1000–50000 fs (estimated midpoint used)."
+ARC (NIF),"Livermore, USA",5e14,1.053,0.000028,15000,2015,"Petawatt and exawatt class lasers worldwide | High Power Laser Science and Engineering | Cambridge Core; Lawrence Livermore National Laboratory ARC documentation","1–50 ps converted to 1000–50000 fs (estimated midpoint used)."
+TEWALAS,"Bucharest, Romania",1.5e13,0.81,10,100,2007,https://cetal.inflpr.ro/newsite/tewalas_system
+Trident,"Los Alamos, USA",2e14,1.054,8.33e-4,100,1990,https://laro.lanl.gov/esploro/outputs/9916370215603761
+*ISKRA-5,"Sarov, Russia",1e14,1.053,1.4e-4,100,2017,"High power laser system ISKRA V | Laser and Particle Beams | Cambridge Core","Repetition rate is an estimate."
+Laboratory for Intense Lasers (L2I),"Lisbon, Portugal",1.5e13,1.053,0.01,100,2020,https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/ultrashort-pulse-capability-at-the-l2i-high-intensity-laser-facility/AC8B841C57282134E8AA71784DD95505,"Repetition rate is an estimate."
+Pulsar,"Warsaw, Poland",1e13,0.81,10,100,2025,https://www.semanticscholar.org/reader/4708d73610d6d675d779aa5d09a7e99ede7487bd
+ZEUS,"Ann Arbor, USA",3e15,0.8,0.03,100,2017,https://pubs.aip.org/aip/pop/article/32/10/103107/3369107,"Repetition rate is an estimate."
+JETI200,"Jena, Germany",2e14,0.8,5,100,2020,https://info.fusion.ciemat.es/OCS/EPS2017ABS/pdf/P1.213.pdf
+POLARIS,"Jena, Germany",2e14,1.03,0.02,100,2023,https://www.researching.cn/articles/OJdb045c3bd0e7a6c3?alichlgref=https%3A%2F%2Fwww.google.com%2F
+Center for Relativistic Laser Science (CoReLS),"Gwangju, South Korea",4.2e15,0.81,0.03,100,2018,"https://opg.optica.org/ol/fulltext.cfm?uri=ol-42-11-2058","Repetition rate is an estimate."
+ANGUS,"Hamburg, Germany",2e14,0.8,1,100,2024,"https://opg.optica.org/abstract.cfm?uri=CLEO_SI-2017-JTu3L.4","Repetition rate is an estimate."
+Laboratorio di Laser Intensi (ILIL),"Pisa, Italy",2.4e14,0.8,0.05,100,2011,"https://ilil.ino.cnr.it/download/single-shot-spectrometer-with-pointing-angle-correction-for-laser-driven-electron-beams-featuring-pointing-instability-and-transverse-inhomogeneity/","Repetition rate is an estimate."
+Titan,"Livermore, USA",1e15,1.05,5.6e-4,100,2018,"https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/DE2006891736.xhtml?utm_source=chatgpt.com"
+Salle Violette,"Palaiseau, France",2e14,0.79,0.002,100,2017,"https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.045001","Repetition rate is an estimate."
+HF-2PW Arm,"Szeged, Hungary",2e15,0.8,2.5,100,2017,"https://ieeexplore.ieee.org/abstract/document/10231672","Repetition rate is for typical operating mode, compared to 10 Hz for optimized mode."
+FLAME,"Frascati, Italy",2e14,0.8,10,100,2014,"https://www.mdpi.com/2076-3417/14/19/8619"
+Colorado State University Advanced Beam Laboratory,"Fort Collins, USA",8.5e14,0.4,1,100,2008,"https://lasers.colostate.edu/aleph/","Repetition rate is for typical high-energy operation mode."
+Laboratory for Intense Lasers (L2I),"Lisbon, Portugal",1.625e9,3,10,100000,2010,"https://www.mdpi.com/2304-6732/11/12/1157","ns-scale mode converted from ~75 ps estimate."
+Xtreme Light III (XL-III),"Beijing, China",1.16e15,0.8,10,100,2017,"https://doi.org/10.1364/OL.36.003194"
+Shanghai Institute of Optics and Fine Mechanics 5 PW,"Shanghai, China",1.76e15,0.808,0.02,100,2017,"https://doi.org/10.1017/hpl.2018.23","Repetition rate is an estimate."
+Astra Gemini,"Didcot, United Kingdom",5e14,0.8,0.05,100,2017,"https://www.osti.gov/etdeweb/biblio/21507140"
+Vulcan,"Didcot, United Kingdom",1.03e15,1.053,0.00028,100,2017,"https://www.osti.gov/etdeweb/biblio/20858586"
+PEARL,"Nizhny Novgorod, Russia",5.6e14,0.91,0.0003,100,2014,"https://www.scilit.com/publications/055acccbbf98682b52b4b4e80692c039","Repetition rate is an estimate."
+PETAL,"Le Barp, France",1.15e15,1.053,9e-5,100,2008,"https://cea.hal.science/cea-01622289","Repetition rate is an estimate."
+Chinese Academy of Engineering Physics PW Laser,"Mianyang, China",4.9e15,0.8,0.02,100,2010,"https://doi.org/10.1364/OL.42.002014","Repetition rate is an estimate."
+FACET Laser,"Portola Valley, USA",1e13,0.8,10,100,2017,"https://www.slac.stanford.edu/pubs/slacpubs/15750/slac-pub-15904.pdf"
+MEC Instrument (LCLS),"Portola Valley, USA",2.5e13,0.8,5,100,2017,"https://inspirehep.net/files/58d1c60edec555a6a0b10ef6f245de35"
+Hercules,"Ann Arbor, USA",3e14,0.8,0.1,100,2014,"https://doi.org/10.1364/OE.16.002109"
+Texas Petawatt Laser,"Austin, USA",1.1e15,1.057,0.00028,100,2004,"https://doi.org/10.1364/AO.49.001676"
+BESTIA,"Upton, USA",1e14,10,10,100,2007,"https://doi.org/10.1063/1.4975920","Repetition rate is an estimate."
