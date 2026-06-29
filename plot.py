@@ -4,3 +4,13 @@
 # colors corresponding to NIR (0.7-1.0 µm), SWIR (1.0-3.0 µm), MWIR (3.0-8.0 µm), and LWIR (8.0-12.0 µm) bands
 # useful extras: color by laser tech or year, marker size by repetition rate, 
 # hover labels or point labels with name, institution, and DOI
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("laser_systems.csv")
+
+wavelength = df['wavelength']
+power = df['peak_power']
+
+plt.scatter(wavelength, power)
