@@ -10,7 +10,17 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("laser_systems.csv")
 
-wavelength = df['wavelength']
-power = df['peak_power']
+POWER_UNITS = {
+	"GW": 1e9,
+	"TW": 1e12,
+	"PW": 1e15,
+}
+
+wavelength = df["wavelength"]
+power = df["peak_power"]
 
 plt.scatter(wavelength, power)
+plt.title("Peak Power vs. Wavelength of High-Power Laser Systems")
+plt.xlabel("Wavelength (µm)")
+plt.ylabel("Peak power (W)")
+plt.show()
