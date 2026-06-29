@@ -17,9 +17,9 @@ df = pd.read_csv("laser_systems.csv")
 wavelength = df["wavelength(µm)"]
 power = df["peak_power(W)"]
 
-sizes = 30 + 70 * np.log10(df["repetition_rate(Hz)"] + 1)
+sizes = 30 + 70 * np.log10(df["repetition_rate(Hz)"] + 1) # marker size by repetition rate, scaled logarithmically to avoid extreme sizes
 
-plt.scatter(wavelength, power, s=sizes)
+scatter = plt.scatter(wavelength, power, s=sizes)
 plt.title("Peak Power vs. Wavelength of High-Power Laser Systems")
 plt.xlabel("Wavelength (µm)")
 plt.ylabel("Peak power (W)")
@@ -54,5 +54,50 @@ if not positive_power.empty:
 	ax.set_ylim(10 ** lower_exponent, 10 ** max_exponent)
 
 ax.set_xlim(left=0)
+
+# Interactive hover labels showing name, institution (location), and DOI (references).
+annotation = ax.annotate(
+	"",
+	xy=(0, 0),
+	xytext=(15, 15),
+	textcoords="offset points",
+	bbox=dict(boxstyle="round", fc="lightyellow", ec="gray", alpha=1.0),
+	arrowprops=dict(arrowstyle="->"),
+	wrap=True,
+	zorder=10,
+)
+annotation.set_visible(False)
+
+
+def make_label(index):
+	row = df.iloc[index]
+	return (
+		f"Name: {row['name']}\n"
+		f"Institution: {row['location']}\n"
+		f"DOI: {row['references']}"
+	)
+
+
+def on_hover(event):
+	if event.inaxes != ax:
+		if annotation.get_visible():
+			annotation.set_visible(False)
+			fig.canvas.draw_idle()
+		return
+	contains, info = scatter.contains(event)
+	if contains:
+		index = info["ind"][0]
+		position = scatter.get_offsets()[index]
+		annotation.xy = position
+		annotation.set_text(make_label(index))
+		annotation.set_visible(True)
+		fig.canvas.draw_idle()
+	elif annotation.get_visible():
+		annotation.set_visible(False)
+		fig.canvas.draw_idle()
+
+
+fig = plt.gcf()
+fig.canvas.mpl_connect("motion_notify_event", on_hover)
 
 plt.show()
