@@ -1,6 +1,6 @@
-# HPP Laser Records
+# High Peak Power Laser Records
 
-A small dataset and visualization toolkit for high-peak-power laser systems around the world. It collects published specifications for notable laser facilities and provides two ways to explore them:
+A small dataset and visualization toolkit for high-peak-power laser systems around the world. It includes a CSV file of published specifications for notable laser facilities and provides two ways to explore them:
 
 - An **interactive scatter plot** of peak power vs. wavelength.
 - A **searchable data table** served as a web app.
