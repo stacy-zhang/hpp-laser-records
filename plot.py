@@ -19,7 +19,29 @@ power = df["peak_power(W)"]
 
 sizes = 30 + 70 * np.log10(df["repetition_rate(Hz)"] + 1) # marker size by repetition rate, scaled logarithmically to avoid extreme sizes
 
-scatter = plt.scatter(wavelength, power, s=sizes)
+# Color markers by decade (e.g. 1990-1999, 2000-2009).
+decade = (df["year"] // 10 * 10).astype(int)
+unique_decades = sorted(decade.unique())
+cmap = plt.get_cmap("viridis", len(unique_decades))
+decade_to_color = {dec: cmap(i) for i, dec in enumerate(unique_decades)}
+point_colors = decade.map(decade_to_color)
+
+scatter = plt.scatter(wavelength, power, s=sizes, c=list(point_colors))
+
+# Legend for decade colors, placed to the right of the graph.
+legend_handles = [
+	plt.Line2D(
+		[], [], marker="o", linestyle="",
+		markerfacecolor=decade_to_color[dec], markeredgecolor="none",
+		markersize=8, label=f"{dec}-{dec + 9}",
+	)
+	for dec in unique_decades
+]
+plt.legend(
+	handles=legend_handles, title="Decade",
+	loc="upper left", bbox_to_anchor=(1.02, 1.0), borderaxespad=0.0,
+)
+
 plt.title("Peak Power vs. Wavelength of High-Power Laser Systems")
 plt.xlabel("Wavelength (µm)")
 plt.ylabel("Peak power (W)")
@@ -100,4 +122,5 @@ def on_hover(event):
 fig = plt.gcf()
 fig.canvas.mpl_connect("motion_notify_event", on_hover)
 
+fig.subplots_adjust(right=0.8)
 plt.show()
